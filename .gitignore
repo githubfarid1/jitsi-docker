@@ -1,0 +1,18 @@
+# Sensitive credentials
+.env
+*.key
+*.crt
+*.pem
+config/prosody/config/certs/
+config/prosody/config/data/
+config/jicofo/*.log
+config/jvb/*.log
+
+# Certificates
+*.pem
+*.crt
+*.key
+
+# Logs
+*.log
+logs/
