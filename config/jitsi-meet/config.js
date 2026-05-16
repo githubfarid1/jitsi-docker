@@ -15,7 +15,7 @@ if (subdomain) {
 }
 config.hosts.muc = 'muc.' + subdomain + 'jitsi.pydev.my.id';
 // When using authentication, domain for guest users.
-config.hosts.anonymousdomain = 'guest.meet.jitsi';
+config.hosts.anonymousdomain = 'guest.jitsi.pydev.my.id';
 // Domain for authenticated users. Defaults to <domain>.
 config.hosts.authdomain = 'jitsi.pydev.my.id';
 config.bosh = 'https://jitsi.pydev.my.id/' + subdir + 'http-bind';

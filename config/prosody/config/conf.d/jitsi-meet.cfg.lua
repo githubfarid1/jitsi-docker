@@ -46,7 +46,7 @@ VirtualHost "jitsi.pydev.my.id"
   authentication = "token"
     app_id = "iqra-app"
     
-    app_secret = "your-jitsi-secret-key-change-in-production"
+    app_secret = "123456abcdef"
     
     allow_empty_token = false
     
