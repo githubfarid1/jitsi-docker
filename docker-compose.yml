@@ -3,7 +3,7 @@ services:
     image: docker.io/jitsi/jvb:jvb-2.3-291-gb4b5ccc8c-1
     restart: ${RESTART_POLICY}
     ports:
-      - "31000:10000/udp"
+      - "10000:10000/udp"
     volumes:
       - ${CONFIG}/jvb:/config
     environment:
